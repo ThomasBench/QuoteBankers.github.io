@@ -15,13 +15,18 @@
 $(function(){
   $("#includedContent").load("assets\\images\\politics_gender_1.html"); 
 });
+$(function(){
+  $("#root").load("/assets/build/index.html"); 
+});
 </script> 
 <script src="/assets/js/main.js"></script>
 <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script type = "module" src = "https://cdnjs.cloudflare.com/ajax/libs/material-ui/5.0.0-beta.5/index.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
 <!-- Charge notre composant React -->
-<script src="../assets/js/index.js"></script>
+<!-- <script type = "text/babel" src="../assets/js/Appli.js"></script> -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.settings.google-ID }}"></script>
@@ -32,3 +37,5 @@ $(function(){
 
   gtag('config', '{{ site.data.settings.google-ID }}');
 </script>
+
+
