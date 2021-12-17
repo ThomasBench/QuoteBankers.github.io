@@ -76,7 +76,7 @@ More to be added.
 ##  Contributing
   
   
-If you would like to contribute, in any forms, including reporting a bug, askingn a question, requesting a features, or even submitting pull requests, please feel free to do so. 
+If you would like to contribute, including reporting a bug, askingn a question, requesting a features, or even submitting pull requests, please feel free to do so. 
   
 ***
   
